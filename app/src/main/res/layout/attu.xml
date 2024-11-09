@@ -6,25 +6,31 @@
     android:background="@color/black"
     android:layout_height="match_parent">
 
-    <EditText
-        android:id="@+id/Nomw"
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayoutnomeatt"
         android:layout_width="368dp"
-        android:layout_height="50dp"
-        android:background="@color/white"
-        android:hint="Nome"
-        android:inputType="textPersonName"
-        android:textSize="20sp"
+        android:layout_height="73dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintHorizontal_bias="0.488"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.283" />
+        app:layout_constraintVertical_bias="0.265">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/Nomw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:hint="Título"
+            android:textSize="20sp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
 
     <TextView
         android:id="@+id/tvDispDtInst2"
-        android:layout_width="363dp"
-        android:layout_height="46dp"
+        android:layout_width="359dp"
+        android:layout_height="40dp"
         android:background="@color/white"
         android:text="Data do Pesadelo"
         android:textAlignment="center"
@@ -70,20 +76,25 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.841" />
 
-    <EditText
-        android:id="@+id/etDispDtInst"
-        android:layout_width="378dp"
-        android:layout_height="98dp"
-        android:background="@color/white"
-        android:hint="Descriçaõo"
-        android:inputType="textPersonName"
-        android:textSize="20sp"
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout"
+        android:layout_width="383dp"
+        android:layout_height="69dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.484"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.723" />
+        app:layout_constraintVertical_bias="0.702">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etDispDtInst"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:hint="Descrição"
+            android:inputType="textMultiLine"
+            android:textSize="20sp" />
+    </com.google.android.material.textfield.TextInputLayout>
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnUpdateData"
