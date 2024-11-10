@@ -24,7 +24,7 @@
         </activity>
 
         <activity
-            android:name=".activities.Add"
+            android:name=".activities.AdicionaPesa"
             android:label="Insira seu Pesadelo"
             android:exported="false">
         </activity>
@@ -34,7 +34,7 @@
             android:exported="false">
         </activity>
         <activity
-            android:name=".activities.Attu"
+            android:name=".activities.AtualizaPesa"
             android:label="Dasos do seu Pesadelo"
             android:exported="false">
         </activity>

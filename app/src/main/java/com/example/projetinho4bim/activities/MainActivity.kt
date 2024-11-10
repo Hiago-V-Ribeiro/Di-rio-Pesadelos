@@ -65,7 +65,7 @@ class MainActivity : AppCompatActivity() {
 
         // Button to add a new entry
         btn.setOnClickListener {
-            val intent = Intent(this, Add::class.java)
+            val intent = Intent(this, AdicionaPesa::class.java)
             startActivity(intent)
         }
 

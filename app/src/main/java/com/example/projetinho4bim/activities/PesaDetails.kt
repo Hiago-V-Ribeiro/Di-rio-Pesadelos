@@ -54,7 +54,7 @@ class PesaDetails : AppCompatActivity() {
         displayData()
 
         btnUpdate.setOnClickListener {
-            val intent3 = Intent(this, Attu::class.java)
+            val intent3 = Intent(this, AtualizaPesa::class.java)
             intent3.putExtra("bookId", currentId)
             startActivity(intent3)
         }

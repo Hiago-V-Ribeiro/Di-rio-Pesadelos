@@ -14,7 +14,7 @@ import com.example.projetinho4bim.DataBase
 import com.example.projetinho4bim.R
 import java.util.Calendar
 
-class Add: AppCompatActivity() {
+class AdicionaPesa: AppCompatActivity() {
     private lateinit var dbHelper: DataBase
 
     override fun onCreate(savedInstanceState: Bundle?) {

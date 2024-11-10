@@ -11,10 +11,9 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.projetinho4bim.DataBase
 import com.example.projetinho4bim.R
-import com.google.android.material.textfield.TextInputEditText
 import java.util.Calendar
 
-class Attu : AppCompatActivity() {
+class AtualizaPesa : AppCompatActivity() {
 
     private var currentId: String? = null
     private var myDB: DataBase? = null
